@@ -83,7 +83,7 @@ section .content-box{
 .section .content-box .form-box h2{
     color: #607d8b;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-transform: uppercase;
     margin-bottom: 20px;
     border-bottom: 4px solid #ff4584;
@@ -93,4 +93,25 @@ section .content-box{
 }
 .section .content-box .form-box .inputbox{
     margin-bottom: 20px;
+    
+}
+.title{
+    font-size: 28px;
+    text-align: center;
+}
+
+.inputbox{
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.inputbox > input {
+    width: 100%;
+    height: 25pt;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.submit > input:hover{
+    cursor: pointer;
+    background-color: #d3d0d0;
 }
