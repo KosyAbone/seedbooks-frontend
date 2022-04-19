@@ -6,61 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="form.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
     <div class="container">
             <div class="title">
+                <!-- LOGO -->
                 <img src="seedbooks img.png" alt="SEEDBOOKS" sizes="5px">
                 Registration</div>
+                <!-- FORM -->
             <form action="/register" method="POST">
                 <div class="user-details">
                     <div class="input-box">
+                        <!-- ICONS -->
+                      
                         <span class="details">First Name</span>
+                        <span class="icon">
+							<ion-icon name="person-sharp"></ion-icon>
+						</span>
                         <input type="text" placeholder="Enter your firstname" name="firstName" required>
 
                     </div>
-                    <div class="pic-container">
+                    <!-- PROFILE PICTURE -->
+                    <!-- <div class="pic-container">
                         <input type="file"  id="profile-picture" name="profile-picture"
                         accept="image/png, image/jpeg"placeholder="Photo" required="" capture>
-                    </div>
+                    </div> -->
                     <div class="user-details">
 
                         <div class="input-box">
+                            <!-- ICONS -->
+                           
                             <span class="details">Last Name</span>
+                             <span class="icon">
+                                <ion-icon name="person-sharp"></ion-icon>
+                            </span>
                             <input type="text" placeholder="Enter your lastname" name="lastName" required>
     
                         </div>
                     
                         <div class="input-box">
+                            
                             <span class="details">Email</span>
+                            <!-- ICON-->
+                            <span class="icon">
+                                <ion-icon name="mail-sharp"></ion-icon>
+                            </span>
                             <input type="text" placeholder="Enter your email" name="email" required>
 
                         </div>
                         <div class="input-box">
                             <span class="details">Phone Number</span>
+                            <!-- ICONS -->
+                            <span class="icon">
+                                <ion-icon name="call-sharp"></ion-icon>
+                            </span>
                             <input type="text" placeholder="Enter your Phone number" name="phone" required>
 
                         </div>
                         <div class="input-box">
                             <span class="details">Password</span>
+                            <!-- ICONS -->
+                            <span class="icon">
+                                <ion-icon name="key-sharp"></ion-icon>
+                            </span>
                             <input type="password" placeholder="Enter your Password" name="password"  required>
 
                         </div>
                         <div class="input-box">
                             <span class="details">Confirm Password</span>
+                            <!-- ICONS -->
+                            <span class="icon">
+                                <ion-icon name="key-sharp"></ion-icon>
+                            </span>
                             <input type="password" placeholder="Confirm your Password" name="password" required>
 
                         </div>
-                    
+                        <!-- GENDER  -->
                         <div class="gender-details">
                             <span class="gender-title">Gender</span>
+
                             <div class="category">
-                                <input type="radio" name="gender" value="male">Male
-                                <input type="radio" name="gender" value="female">Female
-                                <input type="radio" name="gender" value="other">Other 
+                                
+                                
+                                    <input type="radio" name="gender" value="male"> Male
+                                    <ion-icon class="i" name="male-sharp"></ion-icon>
+                               
+
+                                <input type="radio" name="gender" value="female"> Female
+                                <ion-icon class="i" name="female-sharp"></ion-icon>
+                                
+                                <input type="radio" name="gender" value="other"> Other
+                                <ion-icon class="i" name="male-female-sharp"></ion-icon>
                             </div>
                         </div>
                     </div> 
+                    <!-- BUTTON -->
                     <div class="button">
                         <input type="submit" value="Register">
 
