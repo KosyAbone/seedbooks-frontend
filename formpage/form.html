@@ -24,7 +24,7 @@
                         <span class="icon">
 							<ion-icon name="person-sharp"></ion-icon>
 						</span>
-                        <input type="text" placeholder="Enter your firstname" name="firstName" required>
+                        <input type="text" placeholder="First Name" name="firstName" required>
 
                     </div>
                     <!-- PROFILE PICTURE -->
@@ -38,7 +38,7 @@
                              <span class="icon">
                                 <ion-icon name="person-sharp"></ion-icon>
                             </span>
-                            <input type="text" placeholder="Enter your lastname" name="lastName" required>
+                            <input type="text" placeholder="Last Name" name="lastName" required>
     
                         </div>
                     
@@ -48,7 +48,7 @@
                             <span class="icon">
                                 <ion-icon name="mail-sharp"></ion-icon>
                             </span>
-                            <input type="text" placeholder="Enter your email" name="email" required>
+                            <input type="text" placeholder="Email" name="email" required>
 
                         </div>
                         <div class="input-box">
@@ -57,29 +57,43 @@
                             <span class="icon">
                                 <ion-icon name="call-sharp"></ion-icon>
                             </span>
-                            <input type="text" placeholder="Enter your Phone number" name="phone" required>
+                            <input type="text" placeholder="Phone Number" name="phone" required>
 
                         </div>
-                        <div class="input-box">
+                        
+                        <div class="address-box">
                             
                             <!-- ICONS -->
                             <span class="icon">
-                                <ion-icon name="key-sharp"></ion-icon>
+                                <ion-icon name="storefront-sharp"></ion-icon>
                             </span>
-                            <input type="password" placeholder="Enter your Password" name="password"  required>
+                            <textarea placeholder="Enter your Home Address" class="address" name="address" rows="4" cols="10" maxlength="100" >
+
+                            </textarea>
 
                         </div>
-                        <div class="input-box">
-                            
-                            <!-- ICONS -->
-                            <span class="icon">
-                                <ion-icon name="key-sharp"></ion-icon>
-                            </span>
-                            <input type="password" placeholder="Confirm your Password" name="password" required>
+                            <div class="input-box gender-dob">
+                            <!--DATE OF BIRTH-->
+                            <div class="dob-details">
+                                <span class="icon">
+                                    <ion-icon name="today-sharp"></ion-icon>
+                                </span>
+                                <input class="birth-date" type="text" name="birthDate" placeholder="Date of Birth" onfocus="(this.type = 'date')" onblur="(this.type = 'text')"/>
+                            </div>
+                        
+                            <!-- GENDER  -->
 
+                            <div class="gender-details">
+                                <select class="gender" name="gender">
+                                    <option value="default">Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="others">Prefer Not To Say</option>
+                                </select>
+                            </div>
                         </div>
-                        <!-- GENDER  -->
-                        <div class="gender-details">
+
+                        <!-- <div class="gender-details">
                                 
                                 <ion-icon class="i" name="male-sharp"></ion-icon>
                                 <input type="radio" name="gender" value="male"> Male
@@ -90,9 +104,27 @@
                                 <ion-icon class="i" name="male-female-sharp"></ion-icon>
                                 <input type="radio" name="gender" value="other"> Other
                               
+                        </div> -->
+                        <div class="input-box">
+                            
+                            <!-- ICONS -->
+                            <span class="icon">
+                                <ion-icon name="key-sharp"></ion-icon>
+                            </span>
+                            <input type="password" placeholder="Password" name="password"  required>
+
+                        </div>
+                        <div class="input-box">
+                            
+                            <!-- ICONS -->
+                            <span class="icon">
+                                <ion-icon name="key-sharp"></ion-icon>
+                            </span>
+                            <input type="password" placeholder="Confirm Password" name="password" required>
+
                         </div>
                     <!-- BUTTON -->
-                    <div class="button">
+                    <div class="register-button">
                         <input type="submit" value="Register">
                     </div> 
 
