@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form2.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
     <div class="container">
             <div class="title">
                 <!-- LOGO -->
-                <img src="seedbooks img.png" alt="SEEDBOOKS" sizes="5px">
-                Registration</div>
+                <img src="seedbooks img.png" alt="SEEDBOOKS">
+                <p>Registration</p>
+            </div>
                 <!-- FORM -->
             <form action="http://localhost:5000/register" method="POST">
-                <div class="user-details">
+                <div class="form-details">
                     <div class="input-box">
                         <!-- ICONS -->
-                      
-                        <span class="details">First Name</span>
+                        
                         <span class="icon">
 							<ion-icon name="person-sharp"></ion-icon>
 						</span>
@@ -32,12 +32,9 @@
                         <input type="file"  id="profile-picture" name="profile-picture"
                         accept="image/png, image/jpeg"placeholder="Photo" capture>
                     </div> -->
-                    <div class="user-details">
-
                         <div class="input-box">
                             <!-- ICONS -->
                            
-                            <span class="details">Last Name</span>
                              <span class="icon">
                                 <ion-icon name="person-sharp"></ion-icon>
                             </span>
@@ -47,7 +44,6 @@
                     
                         <div class="input-box">
                             
-                            <span class="details">Email</span>
                             <!-- ICON-->
                             <span class="icon">
                                 <ion-icon name="mail-sharp"></ion-icon>
@@ -56,7 +52,7 @@
 
                         </div>
                         <div class="input-box">
-                            <span class="details">Phone Number</span>
+                           
                             <!-- ICONS -->
                             <span class="icon">
                                 <ion-icon name="call-sharp"></ion-icon>
@@ -65,7 +61,7 @@
 
                         </div>
                         <div class="input-box">
-                            <span class="details">Password</span>
+                            
                             <!-- ICONS -->
                             <span class="icon">
                                 <ion-icon name="key-sharp"></ion-icon>
@@ -74,7 +70,7 @@
 
                         </div>
                         <div class="input-box">
-                            <span class="details">Confirm Password</span>
+                            
                             <!-- ICONS -->
                             <span class="icon">
                                 <ion-icon name="key-sharp"></ion-icon>
@@ -84,26 +80,20 @@
                         </div>
                         <!-- GENDER  -->
                         <div class="gender-details">
-                            <span class="gender-title">Gender</span>
-
-                            <div class="category">
                                 
-                                    <input type="radio" name="gender" value="male"> Male
-                                    <ion-icon class="i" name="male-sharp"></ion-icon>
-                               
-
-                                <input type="radio" name="gender" value="female"> Female
+                                <ion-icon class="i" name="male-sharp"></ion-icon>
+                                <input type="radio" name="gender" value="male"> Male
+                                
                                 <ion-icon class="i" name="female-sharp"></ion-icon>
+                                <input type="radio" name="gender" value="female"> Female
                                 
-                                <input type="radio" name="gender" value="other"> Other
                                 <ion-icon class="i" name="male-female-sharp"></ion-icon>
-                            </div>
+                                <input type="radio" name="gender" value="other"> Other
+                              
                         </div>
-                    </div> 
                     <!-- BUTTON -->
                     <div class="button">
                         <input type="submit" value="Register">
-
                     </div> 
 
                 </div>   

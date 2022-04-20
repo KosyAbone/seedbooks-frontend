@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: -webkit-linear-gradient(bottom right,rgb(43, 50, 53),aqua ,red, yellow,green )
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+}
+
+.title > img{
+    width: 100px;
+}
+.title > p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
