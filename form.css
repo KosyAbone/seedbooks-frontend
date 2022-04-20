@@ -22,20 +22,34 @@ body{
     padding: 25px 30px;
     box-shadow: 50px 50px 50px rgba(44, 40, 40, 0.795);
     border-radius: 10px;
+    position: relative;
 
 }
 .container .title{
     font-size: 35px;
     font-weight: 1000;
     position: relative;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     padding: 10px;
+    height: 90px;
     outline: none;
+    border: 100px;
     border-radius: 50px;
-    /* background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green ); */
-}
+    position: relative;
 
+    /* background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );*/
+} 
+img{
+    border: 10px solid linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
+    border-radius: 100px;
+    width: 120px;
+    
+    position: absolute;
+    left: 103px;;
+    top: -16px;
+   
+}
 .container form .user-details{
     display: flex;
     flex-wrap: wrap;
@@ -80,18 +94,25 @@ form .user-details .input-box{
     border-width: 3px;
 }
 form .gender-details .gender-title{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 1000;
-    border-bottom: 1px solid;
-    border-color:blue ;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: justify;
+    /* border-bottom: 1px solid; */
+    /* border-color:blue ; */
+    font-family: cursive;
+    /* color: blue; */
 }
 
-/* form .gender-details .category{
-    
+form .gender-details .categoryform .gender-details .categoryform .gender-details .category .category{
+    color: red;
+    bottom: 10px;
+    font-family: cursive;
+    position: absolute;
+    bottom: 50px;
+    width: 50px;
    
-   
-} */
+}
+
 form .button{
     text-align: center;
     
@@ -102,23 +123,27 @@ form .button input{
     padding: 12px 0;
     margin-top: 10px;
     height: 85%;
-    
     width: 150%;
     font-size: 12px;
     text-align: center;
     font-weight:700;
+    font-family: monospace;
     outline: none;
-    border-radius: 50px;
+    border-radius: 10px;
     letter-spacing: 1px;
-    background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
+    /* color: aqua; */
+    /* background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green ); */
     font-size: 1.5rem;
-    margin: 5px 80px
+    margin: 5px 80px;
+    background-color:  #4fe9e1;
+
     
 }
 
 form .button :hover{
-    color: rgb(83, 92, 81);
+    color:white;
     cursor: pointer;
+     background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
 }
 button:hover{
 	background: red
