@@ -7,7 +7,7 @@
 }
 body{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -25,7 +25,7 @@ body{
     position: relative;
 
 }
-.container .title{
+.title{ 
     font-size: 35px;
     font-weight: 1000;
     position: relative;
@@ -63,12 +63,12 @@ img{
 
 }
 
-form .user-details .input-box{
+.input-box{
     margin-bottom: 14px;
     width: calc(100% / 2 - 30px);
     font-family: fantasy;
 }
-.user-details .input-box .details{
+.details{
     font-weight: 400;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -76,7 +76,7 @@ form .user-details .input-box{
     font-family: cursive;
 }
 
-.user-details .input-box input{
+.input-box input{
     height: 45px;
     width: 100%;
     outline: none;
@@ -88,12 +88,12 @@ form .user-details .input-box{
     border-bottom-width: 2px;
 }
 
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+.input-box input:focus,
+.input-box input:valid{
     border-color: rgba(62, 103, 218, 0.925);
     border-width: 3px;
 }
-form .gender-details .gender-title{
+.gender-title{
     font-size: 30px;
     font-weight: 1000;
     text-align: justify;
@@ -103,7 +103,7 @@ form .gender-details .gender-title{
     /* color: blue; */
 }
 
-form .gender-details .categoryform .gender-details .categoryform .gender-details .category .category{
+.gender-details {
     color: red;
     bottom: 10px;
     font-family: cursive;
