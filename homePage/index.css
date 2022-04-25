@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
  }
- 
+ body{
+   height: 100vh;
+   background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
+ }
  .container  {
     border-radius: 10px;
     font-size: 20px;
