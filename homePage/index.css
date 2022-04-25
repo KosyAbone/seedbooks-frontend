@@ -1,4 +1,5 @@
  *{
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
  }
@@ -8,7 +9,7 @@
     font-size: 20px;
     background-color: #f4f7f7;
     box-shadow: 50px 50px 100px rgba(44, 40, 40, 0.795);
-    width: 700px;
+    width: 650px;
     margin: 40px auto;
     border-radius: 30px; 
     font-family:'Courier New', Courier, monospace
@@ -35,11 +36,11 @@
 img {
     border: 10px solid linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
     border-radius: 90px;
-    width: 120px;
+    width: 90px;
     color: #4fe9e1;
     position: absolute;
-    left: 40px;
-    top: 40px;
+    left: 50px;
+    top: 25px;
    
   }
  .inner-container > p{
@@ -50,18 +51,21 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 25px 0;
 } 
 
 .btn{
+    text-decoration: none;
+    color: black;
     background-color:  #4fe9e1;
-    padding: 15px 30px;
-    border-radius: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
     font-size: 1.5rem;
     font-family:monospace;
     border: #4fe9e1;
     transition-duration: 0.4s;
     transition: ease-out 0.3s;
-    margin: 5px 80px
+    margin: 10px 100px
  }
 .btn:hover{
    background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
@@ -73,6 +77,6 @@ img {
    font-size :20px;
    font-weight: 400;
    font-style: italic;
-   margin-bottom: 3px;
+   margin-bottom: 20px;
    font-family:monospace;
 }
