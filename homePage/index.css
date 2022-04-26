@@ -7,20 +7,20 @@
    height: 100vh;
    display: flex;
    align-items: center;
-   background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
+   background-color: #afacac;
  }
  .container  {
     border-radius: 10px;
     font-size: 20px;
     background-color: #f4f7f7;
-    box-shadow: 50px 50px 100px rgba(44, 40, 40, 0.795);
+    box-shadow: 1px 1px 20px rgba(44, 40, 40, 0.795);
     width: 650px;
     margin: 40px auto;
     border-radius: 30px; 
     font-family:'Courier New', Courier, monospace
  }
  .header{
-   background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
+   background-color:#afacac;
    margin:0;
    padding: 15px 0px;
    border-radius: 15px; 
@@ -39,10 +39,10 @@
 }
 
 img {
-    border: 10px solid linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
+    border: #afacac;
     border-radius: 90px;
     width: 90px;
-    color: #4fe9e1;
+    color: #afacac;
     position: absolute;
     left: 50px;
     top: 25px;
@@ -62,20 +62,20 @@ img {
 .btn{
     text-decoration: none;
     color: black;
-    background-color:  #4fe9e1;
+    background-color:  #afacac;
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 1.5rem;
     font-family:monospace;
-    border: #4fe9e1;
+    /* border: #4fe9e1; */
     transition-duration: 0.4s;
     transition: ease-out 0.3s;
     margin: 10px 100px
  }
 .btn:hover{
-   background-image: linear-gradient(135deg,rgb(43, 50, 53),aqua ,red, yellow,green );
-   color: white;
    cursor: pointer;
+   color:whitesmoke;
+   background-color: black
 }
 
 .text{
