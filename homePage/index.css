@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
  *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,10 @@
    margin:0;
    padding: 15px 0px;
    border-radius: 15px; 
-     
+  
+ }
+ .header >h1{
+   font-family: 'Fredoka One', cursive;
  }
  #words{
      font-size: 30px;
@@ -66,7 +70,7 @@ img {
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 1.5rem;
-    font-family:monospace;
+    font-family: 'Fredoka One', cursive;
     /* border: #4fe9e1; */
     transition-duration: 0.4s;
     transition: ease-out 0.3s;
