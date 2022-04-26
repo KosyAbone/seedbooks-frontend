@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 120vh;
-    background-color: whitesmoke;
+    background-color: #afacac;
 }
 
 .container{
@@ -24,6 +24,7 @@ body{
 .title{
     margin: 0 auto;
     display: flex;
+
 }
 .title > img{
     width: 100px;
@@ -93,11 +94,13 @@ body{
     padding: 10px 60px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: white;
+    color: black;
+    background-color: #afacac;
     box-shadow: 0.5px 0.5px 2px rgba(12, 7, 7, 0.8);
     border:none
 }
 .register-button > input:hover{
     cursor: pointer;
-    background-color: #eae7e7
+    background-color: whitesmoke;
+    color: black;
 }
