@@ -29,12 +29,12 @@ body{
     left: 15px;
     border: 2px solid #afacac;
     border-radius: 100px;
-    width: 100px;
+    width: 70px;
 }
 .shelf-pic{
     margin: 0 10px;
     height: 100%;
-    width: 100%;
+    width: 95%;
     object-fit: cover
 }
 .form-box{
