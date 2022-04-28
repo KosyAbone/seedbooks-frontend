@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 120vh;
-    background-color: whitesmoke;
+    background-color: #afacac;
 }
 
 .container{
@@ -19,7 +20,7 @@ body{
     padding: 20px 40px;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 5px #7b7979;
+    box-shadow: 5px 5px 5px #7b7979;
 }
 .title{
     margin: 0 auto;
@@ -33,6 +34,7 @@ body{
     font-size: 30px;
     margin-top: 20px;
     margin-right: 30px;
+    font-family: 'Fredoka One', cursive;
 }
 
 .form-details{
@@ -99,5 +101,5 @@ body{
 }
 .register-button > input:hover{
     cursor: pointer;
-    background-color: #eae7e7
+    background-color:#afacac;
 }
