@@ -77,6 +77,5 @@ body{
 }
 .submit > input:hover{
     cursor: pointer;
-    /* color: whiteco; */
     background-color: black
 }

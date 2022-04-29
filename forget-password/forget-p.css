@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px 5px #7b7979;
+    height: 80vh;
 }
 .header-icon{
     font-size: 120px;
@@ -38,7 +39,60 @@ body{
     font-weight: 500;
     font-size: 20px;
     padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-family: monospace;
 }
+.input-details{
+    margin-bottom: 60px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 3px rgba(12, 7, 7, 0.8);
+}
+.input-details >input{
+    width: 92%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight:700;
+}
+.icon{
+  color: #7b7979;
+   
+}
+.submit-btn{
+    padding: 8px;
+    margin: 0 auto;
+}
 
-
+.submit-btn>input{
+    font-family: 'Fredoka One', cursive;
+    padding: 10px 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #afacac;
+    box-shadow: 0.5px 0.5px 2px rgba(12, 7, 7, 0.8);
+    border:none
+}
+.submit-btn> input:hover{
+    cursor: pointer;
+    background-color:black;
+    color: white;
+}
+.return{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    
+}
+.return >a{
+    color:#7b7979;
+    text-decoration: none;
+}
+.return >a:hover{
+    cursor: pointer;
+    color:black;
+}
