@@ -75,7 +75,38 @@ body{
     border-radius: 10px;
     background-color: #afacac;
 }
+.forget-password{
+    font-size: 20px;
+    font-weight: 600;
+}
+.forget-password> a{
+    color:#7b7979;
+    text-decoration: none;
+    
+   
+}  
+.forget-password >a:hover{
+    cursor: pointer;
+    color:black;
+    text-decoration: underline;
+}
 .submit > input:hover{
     cursor: pointer;
-    background-color: black
+    background-color: black;
+    color: antiquewhite;
 }
+.extra-text{
+  font-weight: 600;
+
+}
+.extra-text p >a{
+    color:#7b7979;
+    text-decoration: none;
+    font-size: 20px;
+}
+.extra-text p >a:hover{
+    cursor: pointer;
+    color:black;
+    text-decoration: underline;
+}
+ 
