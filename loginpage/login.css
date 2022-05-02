@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ body{
 }
 .title{
     margin-bottom: 15px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Merienda', cursive;
 }
 .icon{
     padding: 14px;
@@ -67,7 +67,7 @@ body{
     border: none;
     outline: none;
     margin-top: 10px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Merienda', cursive;
     font-size: 20px;
     width: 100%;
     font-weight: 600;

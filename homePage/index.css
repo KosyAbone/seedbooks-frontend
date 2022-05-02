@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
  *{
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
   
  }
  .header >h1{
-   font-family: 'Fredoka One', cursive;
+   font-family: 'Merienda', cursive;
  }
  #words{
      font-size: 30px;
@@ -70,7 +70,7 @@ img {
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 1.5rem;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Merienda', cursive;
     /* border: #4fe9e1; */
     transition-duration: 0.4s;
     transition: ease-out 0.3s;
@@ -87,5 +87,5 @@ img {
    font-weight: 400;
    font-style: italic;
    margin-bottom: 20px;
-   font-family:monospace;
+ font-family: 'Merienda', cursive;
 }
