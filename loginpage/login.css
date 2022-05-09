@@ -54,7 +54,7 @@ body{
     font-family: 'Merienda', cursive;
 }
 .icon{
-    padding: 14px;
+    padding: 12px;
     background-color: #afacac;
 }
 .inputbox > input{
@@ -63,7 +63,7 @@ body{
     font-size: 16px;
 }
 .submit > input{
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 3px black;
     border: none;
     outline: none;
     margin-top: 10px;
@@ -79,12 +79,12 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
-.forget-password> a{
+
+.forget-password > a{
     color:#7b7979;
     text-decoration: none;
-    
-   
 }  
+
 .forget-password >a:hover{
     cursor: pointer;
     color:black;
@@ -92,7 +92,7 @@ body{
 }
 .submit > input:hover{
     cursor: pointer;
-    background-color: black;
+    background-color: #5e5d5d;
     color: antiquewhite;
 }
 .extra-text{
